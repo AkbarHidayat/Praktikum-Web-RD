@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pengunjung Rumah Sakit</title>
+
+	<style type="text/css">
+		.header{
+			background-image: url(Background.jpeg);
+			font-style: italic;
+			font-size: 20px;
+			color: black;
+			background-size: 150px;
+		}
+
+		body{
+			background-color: lightgreen;
+		}
+
+		#daftar-box{
+			position: relative;
+			background-color: lightblue;
+			padding: 0;
+			margin: 10% auto;
+			height: 250px;
+			width: 600px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+		}
+
+		h2{
+			text-align: center;
+			font-family: sans-serif;
+			font-style: oblique;
+		}
+
+		.pendaftaran li{
+			list-style: none;
+			float: left;
+			padding: 1px 20px;
+		}
+
+		p{
+			text-align: justify;
+			font-size: 17px;
+		}
+	</style>
+	
+</head>
+
+<body>
+	<header id="halaman awal header">
+		<div class="header">
+			<h1 align="center">Pelayanan Pendaftaran Rumah Sakit Pondok indah</h1>
+		</div>
+	</header>
+
+	<nav>
+		<div class="pendaftaran">
+			<ul>
+				<li><a href="https://www.rspondokindah.co.id/id">Home</a></li>
+				<li><a href="https://www.rspondokindah.co.id/id/find-a-doctor">Find a doctor</a></li>
+				<li><a href="https://www.rspondokindah.co.id/id/pages/telemedicine-rs-pondok-indah-group">Visitor & patient information</a></li>
+			</ul>
+		</div>
+		<br>
+	</nav>
+
+	<section>
+		<h2>Selamat Datang </h2>
+		<p style="text-indent: 25px;"> Rumah Sakit adalah institusi pelyanan kesehatan yang menyelenggarakan kesehatan perorangan secara paripurna yang menyediakan pelayanan rawat inap,rawat jalan dan gawat darurat.</p>
+
+		<p>Pendaftaran</p>
+		<ol>
+			<p>Hal yang harus diperhatikan saat mengisi form</p>
+			<li>Pastikan data yang anda masukkan sesuai kartu identitas yang berlaku, benar, dan dapat dipertanggungjawabkan.</li>
+			<li>Silahkan hubungi bagian layanan Call center dengan memilih tab Home, jika anda merasa ada kekeliruan atau sesuatu yang ingin di tanyakan bersifat darurat.</li>
+			<li>Isi Form dengan data yang sebenar-benarnya.</li>
+		</ol>
+
+		<div id="daftar-box">
+			<form action="#" method="GET">
+				<fieldset>
+					<legend>Form Data Diri</legend>
+					<table>
+						<tr>
+							<td>Nama Lengkap</td>
+							<td>:</td>
+							<td><input type="text" name="namalengkap"></td>
+						</tr>
+
+						<tr>
+							<td>Jenis Kelamin</td>
+							<td>:</td>
+							<td>
+								<input type="radio" name="jk" value="Laki-laki">Laki-Laki
+								<input type="radio" name="jk" value="Perempuan">Perempuan
+							</td>
+						</tr>
+
+						<tr>
+							<td>Keluhan</td>
+							<td>:</td>
+							<td><input type="text" name="Keluhan"></td>
+						</tr>
+
+						<tr>
+							<td>No Telepon</td>
+							<td>:</td>
+							<td><input type="num" name="notelepon"></td>
+						</tr>
+
+						<tr>
+							<td>Alamat</td>
+							<td>:</td>
+							<td><textarea name="alamat" placeholder="Tuliskan alamat" cols="30" rows="1"></textarea></td>
+						</tr>
+
+						<tr>
+							<td>Jenis pelayanan</td>
+							<td>:</td>
+							<td>
+								<select name="anggota">
+									<option value="Rawat inap">Rawat inap</option>
+									<option value="Rawat jalan">Rawat jalan</option>
+									<option value="Gawat darurat">Gawat darurat</option>
+					
+								</select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>Email</td>
+							<td>:</td>
+							<td><input type="text" name="email"></td>
+						</tr>
+					</table>
+					<input type="submit" value="Submit">
+				</fieldset>
+			</form>
+		</div>
+	</section>
+
+
+	<footer>
+		<a href="#halaman awal header">Ke bagian atas</a>
+		<p style="text-align: left;">copyright &copy; 2021</p>
+	</footer>
+
+</body>
+</html>
