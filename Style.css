@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.container{
+    margin : 50px auto;
+    width: 400px;
+    height: auto;
+}
+
+header{
+    background-color: brown;
+    height: 50px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.body{
+    display: flexbox;
+    height: auto;
+    width: auto;
+}
+
+div{
+    border: 2px solid black;
+}
+
+form{
+    background-color: coral;
+}
+
+button{
+    background-color: bisque;
+}
+
+input{
+    background-color: rgb(191, 191, 192);
+}
